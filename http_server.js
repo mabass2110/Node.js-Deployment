@@ -25,12 +25,12 @@ db.defaults({ users: [] }).write();
 let port = process.env.PORT || 3000;
 
 // return all users
-app.get('/data', function (req, res) {
+app.get('/accounts', function (req, res) {
     res.send(db.get('users').value());
 });
 
 // add user
-app.post('/add', function (req, res) {
+app.post('/accounts', function (req, res) {
     var user = {
         'name': req.body.name,
         'dob': req.body.dob,
@@ -48,6 +48,7 @@ app.post('/add', function (req, res) {
     console.log(db.get('users').value());
     res.send(db.get('users').value());
 });
+
 
 // start server
 // -----------------------
