@@ -105,7 +105,7 @@ app.listen(PORT, () => {
 Add the Heroku remote repository:
 
 ```bash
-git remote add heroku https://git.heroku.com/your-app-name.git
+git remote add heroku https://git.heroku.com/Node.js-Deployment.git
 ```
 
 Deploy your application:
