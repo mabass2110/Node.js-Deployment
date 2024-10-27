@@ -38,10 +38,16 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+```
 
 
 ### 2. Install dependencies
 
+Navigate to your project directory and install the required dependencies:
+
+```bash
+npm install
+```
 
 
 
